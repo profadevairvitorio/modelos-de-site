@@ -1,0 +1,74 @@
+{
+  "site": {
+    "title": "Boracharia SpeedTire - Reparos e Troca de Pneus",
+    "logo": "Boracharia SpeedTire"
+  },
+  "navigation": [
+    { "text": "Sobre Nós", "href": "#sobre" },
+    { "text": "Serviços", "href": "#servicos" },
+    { "text": "Preços", "href": "#precos" }
+  ],
+  "hero": {
+    "title": "Reparos e Troca de Pneus Rápida e Confiável",
+    "subtitle": "Atendimento 24/7 para emergências rodoviárias. Seu pneu seguro conosco!",
+    "buttonText": "Enviar via WhatsApp",
+    "whatsapp": "5599999999999"
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "description": "A Boracharia SpeedTire é especialista em manutenção de pneus e rodas. Com anos de experiência, oferecemos serviços de alta qualidade para veículos leves e pesados. Nossa equipe utiliza equipamentos modernos para garantir segurança e rapidez.",
+    "cards": [
+      {
+        "title": "Experiência",
+        "description": "Mais de 10 anos no mercado."
+      },
+      {
+        "title": "Variedade",
+        "description": "Pneus para todos os tipos de veículo."
+      },
+      {
+        "title": "24/7",
+        "description": "Atendimento emergencial a qualquer hora."
+      }
+    ]
+  },
+  "services": {
+    "title": "Serviços Oferecidos",
+    "cards": [
+      {
+        "title": "Troca de Pneus",
+        "description": "Instalação rápida e balanceamento incluído."
+      },
+      {
+        "title": "Reparo de Furos",
+        "description": "Corrigimos furos sem precisar trocar o pneu."
+      },
+      {
+        "title": "Alinhamento e Balanceamento",
+        "description": "Garantimos estabilidade e durabilidade dos pneus."
+      },
+      {
+        "title": "Reciclagem",
+        "description": "Descarte responsável de pneus velhos."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Preços dos Serviços",
+    "items": [
+      { "description": "Troca de Pneu (inclui balanceamento)", "price": "R$ 20 + valor do pneu" },
+      { "description": "Reparo de Furo", "price": "R$ 15" },
+      { "description": "Alinhamento de Rodas", "price": "R$ 30" },
+      { "description": "Balanceamento", "price": "R$ 20" },
+      { "description": "Calibragem de Pneus", "price": "R$ 5" }
+    ],
+    "enableLoyaltyModal": false,
+    "loyaltyProgram": {
+      "title": "Programa de Fidelidade",
+      "description": "A cada 5 serviços, ganhe uma calibragem de pneus gratuita!"
+    }
+  },
+  "footer": {
+    "copyright": "&copy; 2023 Boracharia SpeedTire. Todos os direitos reservados."
+  }
+}
