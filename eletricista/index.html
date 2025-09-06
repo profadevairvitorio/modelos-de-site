@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="site-title">Eletricista Flash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="clientes-contador">Clientes atendidos: <span id="counter">0</span></div>
+<header>
+    <nav>
+        <div class="logo" id="logo"></div>
+        <ul id="nav-menu">
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    </nav>
+</header>
+
+<section id="hero" class="hero">
+    <div class="hero-content">
+        <img src="assets/img/hero-icon.png" alt="Ícone Eletricista Flash" style="width: 140px; height: 140px; border-radius: 50%; margin-bottom: 25px; border: 4px solid rgba(255,255,255,0.4); box-shadow: 0 8px 25px rgba(0,0,0,0.3); animation: fadeInUp 1.6s ease-out;">
+        <h1 id="hero-title"></h1>
+        <p id="hero-subtitle"></p>
+        <a target="_blank" rel="noopener" class="btn" aria-label="WhatsApp Eletricista Flash" id="hero-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                <path d="M20.52 3.48A11.94 11.94 0 0012 0C5.37 0 0 5.37 0 12a11.94 11.94 0 001.64 6.01L0 24l6.12-1.6A11.94 11.94 0 0012 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.2-3.48-8.52zm-8.52 17.1a8.4 8.4 0 01-4.5-1.3l-.32-.2-3.6.94.96-3.5-.21-.35a8.4 8.4 0 1111.7 4.1 8.3 8.3 0 01-4.03 1.3zm4.5-5.7c-.25-.12-1.48-.73-1.7-.81-.22-.08-.38-.12-.54.12s-.62.81-.76.98c-.14.17-.28.19-.53.06a6.3 6.3 0 01-1.85-1.14 7.1 7.1 0 01-1.3-1.6c-.14-.25 0-.38.1-.5.1-.1.22-.28.33-.42.11-.14.15-.25.22-.42.07-.17.03-.31-.02-.43-.05-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.4-.14 0-.3-.02-.46-.02s-.43.06-.66.31a2.8 2.8 0 00-1 2.3c0 1.3.94 2.56 1.07 2.74.12.17 1.85 2.8 4.5 3.92a5.3 5.3 0 002.4.4 4.3 4.3 0 002.9-1.3 3.9 3.9 0 001.3-2.3c.02-.1.02-.18 0-.25-.02-.07-.22-.12-.46-.25z"/>
+            </svg>
+        </a>
+    </div>
+</section>
+
+<section id="sobre">
+    <h2 id="about-title"></h2>
+    <p id="about-description"></p>
+    <div class="grid" id="about-cards">
+    </div>
+</section>
+
+<section id="servicos">
+    <h2 id="services-title"></h2>
+    <div class="grid" id="services-cards">
+    </div>
+</section>
+
+<section id="precos">
+    <h2 id="pricing-title"></h2>
+    <ul class="precos" id="pricing-list">
+    </ul>
+</section>
+
+<div id="loyalty-modal" class="modal">
+    <div class="modal-content" id="loyalty-modal-content"></div>
+</div>
+
+<footer>
+    <p id="footer-copyright"></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

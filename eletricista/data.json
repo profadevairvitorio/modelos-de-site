@@ -1,0 +1,74 @@
+{
+  "site": {
+    "title": "Eletricista Flash - Soluções Elétricas Rápidas",
+    "logo": "Eletricista Flash"
+  },
+  "navigation": [
+    { "text": "Sobre Nós", "href": "#sobre" },
+    { "text": "Serviços", "href": "#servicos" },
+    { "text": "Preços", "href": "#precos" }
+  ],
+  "hero": {
+    "title": "Soluções Elétricas Rápidas e Seguras",
+    "subtitle": "Atendimento 24/7 para emergências elétricas. Sua segurança em primeiro lugar!",
+    "buttonText": "Chamar no WhatsApp",
+    "whatsapp": "5599999999999"
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "description": "O Eletricista Flash é especialista em instalações e manutenções elétricas. Com anos de experiência, oferecemos serviços de alta qualidade para residências e comércios. Nossa equipe utiliza as melhores ferramentas para garantir segurança e eficiência.",
+    "cards": [
+      {
+        "title": "Experiência",
+        "description": "Mais de 15 anos no ramo."
+      },
+      {
+        "title": "Qualidade",
+        "description": "Serviços com garantia e materiais de primeira."
+      },
+      {
+        "title": "24/7",
+        "description": "Atendimento emergencial para sua segurança."
+      }
+    ]
+  },
+  "services": {
+    "title": "Serviços Oferecidos",
+    "cards": [
+      {
+        "title": "Instalações Elétricas",
+        "description": "Instalação de tomadas, interruptores, chuveiros e iluminação."
+      },
+      {
+        "title": "Reparos Gerais",
+        "description": "Solução de curtos-circuitos, troca de fiação e reparos em geral."
+      },
+      {
+        "title": "Manutenção Preventiva",
+        "description": "Revisão completa da rede elétrica para evitar acidentes."
+      },
+      {
+        "title": "Projetos Elétricos",
+        "description": "Elaboração de projetos elétricos para novas construções e reformas."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Preços dos Serviços",
+    "items": [
+      { "description": "Visita Técnica e Orçamento", "price": "R$ 50" },
+      { "description": "Instalação de Tomada/Interruptor", "price": "A partir de R$ 40" },
+      { "description": "Instalação de Chuveiro", "price": "A partir de R$ 80" },
+      { "description": "Troca de Disjuntor", "price": "A partir de R$ 60" },
+      { "description": "Atendimento de Emergência", "price": "Sob consulta" }
+    ],
+    "enableLoyaltyModal": false,
+    "loyaltyProgram": {
+      "title": "Programa de Fidelidade",
+      "description": "A cada 5 serviços, ganhe uma revisão elétrica básica gratuita!"
+    }
+  },
+  "footer": {
+    "copyright": "&copy; 2023 Eletricista Flash. Todos os direitos reservados."
+  }
+}
